@@ -1,0 +1,19 @@
+{
+  "name": "sync-clinic-data",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to sync clinic data to Redis geospatial index",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "4.6.5",
+    "@middy/event-normalizer": "4.6.5",
+    "@middy/warmup": "4.6.5",
+    "ioredis": "^5.4.1",
+    "dotenv": "^16.0.3"
+  }
+}
